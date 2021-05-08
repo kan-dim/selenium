@@ -31,8 +31,6 @@ function onPrepare() {
 	browser.driver.manage().window().setSize(1200, 800);
 	browser.manage().timeouts().implicitlyWait(3000);
 
-	require('../utils/matchers');
-
 	// allure reporter
 
 	// add jasmine spec reporter
